@@ -10,6 +10,7 @@
     "react-dom": "16.7.0",
     "react-ga": "2.7.0",
     "react-redux": "6.0.0",
+    "react-router-dom": "^5.1.2",
     "redux": "4.0.1",
     "redux-api-middleware": "3.0.1",
     "redux-thunk": "2.3.0"

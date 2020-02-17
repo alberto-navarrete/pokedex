@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import ga from '../../utils/ga'
 
 class Pokemon extends PureComponent {
@@ -24,6 +25,7 @@ class Pokemon extends PureComponent {
           }}
         />
         <p className="pokemon__name">{pokemon.name}</p>
+        <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''} />
       </div>
     )
   }
